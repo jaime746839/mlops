@@ -63,7 +63,7 @@ pipeline {
                 emailext (
                     subject: "Statut du pipeline CI/CD",
                     body: "Le pipeline a été exécuté avec succès.",
-                    to: "votre_email@example.com"
+                    to: "NGOAMENYE.LUCAIME@esprit.tn"
                 )
             }
         }
