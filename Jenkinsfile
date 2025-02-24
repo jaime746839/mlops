@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     environment {
-        // Nom de l'image Docker privée
-        DOCKER_IMAGE = 'willisrunner/mlops:latest'  // Assurez-vous de remplacer par votre propre image Docker
-        DOCKER_CREDENTIALS_ID = 'docker-hub-creds'  // ID des identifiants Docker Hub dans Jenkins
+        // Nom de l'image Docker sur Docker Hub
+        DOCKER_IMAGE = 'willisrunner/mlops:latest'  // Assurez-vous que cette image existe sur Docker Hub
+        DOCKER_CREDENTIALS_ID = 'dockerhubcreds'  // ID des identifiants Docker Hub dans Jenkins (configuré dans Jenkins Credentials)
     }
 
     stages {
         stage('Checkout') {
             steps {
-                // Vérifie le code source depuis votre repository
+                // Vérifie le code source depuis le dépôt GitHub
                 checkout scm
             }
         }
@@ -34,8 +34,8 @@ pipeline {
                     docker.withRegistry('', DOCKER_CREDENTIALS_ID) {
                         def app = docker.image(DOCKER_IMAGE)
                         app.inside {
-                            // Exécute vos tests avec pytest
-                            sh 'pytest tests/'  // Adaptez ce chemin à la structure de votre projet
+                            // Exécute vos tests avec pytest dans le dossier tests
+                            sh 'pytest tests/'  // Adapte ce chemin selon la structure de ton projet
                         }
                     }
                 }
@@ -50,7 +50,7 @@ pipeline {
                         def app = docker.image(DOCKER_IMAGE)
                         app.inside {
                             // Exemple d'exécution de docker-compose pour déployer
-                            sh 'docker-compose up -d'  // Adaptation au besoin de votre projet
+                            sh 'docker-compose up -d'  // Assurez-vous que docker-compose est configuré pour ton projet
                         }
                     }
                 }
