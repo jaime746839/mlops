@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/b3a4f7a62a5f4738b1cd970e8f28ed6b/artifacts
+end_time: 1740248849209
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3a4f7a62a5f4738b1cd970e8f28ed6b
+run_name: victorious-ram-882
+run_uuid: b3a4f7a62a5f4738b1cd970e8f28ed6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248849181
+status: 3
+tags: []
+user_id: user

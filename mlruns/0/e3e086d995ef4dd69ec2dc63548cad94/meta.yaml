@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/e3e086d995ef4dd69ec2dc63548cad94/artifacts
+end_time: 1740248725349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e3e086d995ef4dd69ec2dc63548cad94
+run_name: sneaky-sheep-59
+run_uuid: e3e086d995ef4dd69ec2dc63548cad94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248725335
+status: 3
+tags: []
+user_id: user

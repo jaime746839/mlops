@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/6a86590a13fc4e61a29165454de07ba7/artifacts
+end_time: 1740248072533
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a86590a13fc4e61a29165454de07ba7
+run_name: mercurial-donkey-641
+run_uuid: 6a86590a13fc4e61a29165454de07ba7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248063589
+status: 3
+tags: []
+user_id: user

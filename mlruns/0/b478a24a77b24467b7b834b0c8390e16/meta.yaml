@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/b478a24a77b24467b7b834b0c8390e16/artifacts
+end_time: 1740296656417
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b478a24a77b24467b7b834b0c8390e16
+run_name: languid-crab-728
+run_uuid: b478a24a77b24467b7b834b0c8390e16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740296628459
+status: 3
+tags: []
+user_id: user

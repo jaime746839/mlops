@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/61a37bd7f91a4e9c8dc1f97bbc251d75/artifacts
+end_time: 1740297250852
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61a37bd7f91a4e9c8dc1f97bbc251d75
+run_name: burly-shad-401
+run_uuid: 61a37bd7f91a4e9c8dc1f97bbc251d75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740297241643
+status: 3
+tags: []
+user_id: user

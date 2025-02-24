@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/14c81027277040f49f3fa6a13a4e6b35/artifacts
+end_time: 1740248088008
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14c81027277040f49f3fa6a13a4e6b35
+run_name: languid-robin-380
+run_uuid: 14c81027277040f49f3fa6a13a4e6b35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248072543
+status: 3
+tags: []
+user_id: user

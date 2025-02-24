@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/b4c33b43293c41acb60c1337759c07d8/artifacts
+end_time: 1740246867855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4c33b43293c41acb60c1337759c07d8
+run_name: ambitious-newt-330
+run_uuid: b4c33b43293c41acb60c1337759c07d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740246858611
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/9d91e2921a6043dfab58920e83af091a/artifacts
+end_time: 1740248088630
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d91e2921a6043dfab58920e83af091a
+run_name: able-shrimp-670
+run_uuid: 9d91e2921a6043dfab58920e83af091a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248088577
+status: 3
+tags: []
+user_id: user

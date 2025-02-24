@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/715be8804d314d27b6bd6a5bd8556e5d/artifacts
+end_time: 1740246496403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 715be8804d314d27b6bd6a5bd8556e5d
+run_name: skittish-loon-199
+run_uuid: 715be8804d314d27b6bd6a5bd8556e5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740246489317
+status: 3
+tags: []
+user_id: user

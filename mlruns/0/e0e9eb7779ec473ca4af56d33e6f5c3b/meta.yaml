@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/e0e9eb7779ec473ca4af56d33e6f5c3b/artifacts
+end_time: 1740246489312
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0e9eb7779ec473ca4af56d33e6f5c3b
+run_name: amusing-shoat-595
+run_uuid: e0e9eb7779ec473ca4af56d33e6f5c3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740246478590
+status: 3
+tags: []
+user_id: user

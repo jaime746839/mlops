@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/9a3fa56e5cd442deac1240951ec8cc72/artifacts
+end_time: 1740248849242
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a3fa56e5cd442deac1240951ec8cc72
+run_name: welcoming-goat-214
+run_uuid: 9a3fa56e5cd442deac1240951ec8cc72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248849214
+status: 3
+tags: []
+user_id: user

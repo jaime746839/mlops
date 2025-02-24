@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/eecbe270940844b8941310f82515a8ea/artifacts
+end_time: 1740248088563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eecbe270940844b8941310f82515a8ea
+run_name: painted-conch-869
+run_uuid: eecbe270940844b8941310f82515a8ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248088524
+status: 3
+tags: []
+user_id: user

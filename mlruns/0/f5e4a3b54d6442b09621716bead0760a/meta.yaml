@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/f5e4a3b54d6442b09621716bead0760a/artifacts
+end_time: 1740300711371
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5e4a3b54d6442b09621716bead0760a
+run_name: redolent-auk-640
+run_uuid: f5e4a3b54d6442b09621716bead0760a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740300701215
+status: 3
+tags: []
+user_id: user

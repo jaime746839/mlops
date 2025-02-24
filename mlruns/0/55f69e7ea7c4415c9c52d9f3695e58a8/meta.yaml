@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/55f69e7ea7c4415c9c52d9f3695e58a8/artifacts
+end_time: 1740248725380
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55f69e7ea7c4415c9c52d9f3695e58a8
+run_name: amusing-mouse-279
+run_uuid: 55f69e7ea7c4415c9c52d9f3695e58a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248725354
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/6caf21596cf5477087a48c7cd6aa88dc/artifacts
+end_time: 1740247054804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6caf21596cf5477087a48c7cd6aa88dc
+run_name: amusing-cow-210
+run_uuid: 6caf21596cf5477087a48c7cd6aa88dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740247054772
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/3deb4e6f91a842a9ab69bbfbed30036e/artifacts
+end_time: 1740296685840
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3deb4e6f91a842a9ab69bbfbed30036e
+run_name: angry-bug-812
+run_uuid: 3deb4e6f91a842a9ab69bbfbed30036e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740296656429
+status: 4
+tags: []
+user_id: user

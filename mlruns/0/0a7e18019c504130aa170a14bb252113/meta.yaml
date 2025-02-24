@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/0a7e18019c504130aa170a14bb252113/artifacts
+end_time: 1740247255828
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a7e18019c504130aa170a14bb252113
+run_name: omniscient-wren-191
+run_uuid: 0a7e18019c504130aa170a14bb252113
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740247246113
+status: 3
+tags: []
+user_id: user

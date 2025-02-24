@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/abc9133858754b80b6c00541562b2454/artifacts
+end_time: 1740297251170
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: abc9133858754b80b6c00541562b2454
+run_name: amazing-moth-65
+run_uuid: abc9133858754b80b6c00541562b2454
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740297251137
+status: 3
+tags: []
+user_id: user

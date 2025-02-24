@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/76f1108700ff497c93b84a375a33dd27/artifacts
+end_time: 1740248293775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 76f1108700ff497c93b84a375a33dd27
+run_name: marvelous-snake-271
+run_uuid: 76f1108700ff497c93b84a375a33dd27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248280967
+status: 3
+tags: []
+user_id: user

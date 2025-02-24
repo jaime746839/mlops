@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/34e81bd39897453a94fedfacc1b3eb31/artifacts
+end_time: 1740297241638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34e81bd39897453a94fedfacc1b3eb31
+run_name: debonair-roo-667
+run_uuid: 34e81bd39897453a94fedfacc1b3eb31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740297228464
+status: 3
+tags: []
+user_id: user

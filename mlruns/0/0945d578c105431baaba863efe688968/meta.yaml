@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/0945d578c105431baaba863efe688968/artifacts
+end_time: 1740247540970
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0945d578c105431baaba863efe688968
+run_name: intelligent-ray-968
+run_uuid: 0945d578c105431baaba863efe688968
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740247540955
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/1c65c9fb72b24c41af044386ca26a545/artifacts
+end_time: 1740300719511
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c65c9fb72b24c41af044386ca26a545
+run_name: nebulous-deer-990
+run_uuid: 1c65c9fb72b24c41af044386ca26a545
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740300711375
+status: 3
+tags: []
+user_id: user

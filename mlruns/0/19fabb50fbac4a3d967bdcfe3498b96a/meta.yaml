@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/19fabb50fbac4a3d967bdcfe3498b96a/artifacts
+end_time: 1740248848886
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19fabb50fbac4a3d967bdcfe3498b96a
+run_name: chill-loon-439
+run_uuid: 19fabb50fbac4a3d967bdcfe3498b96a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740248839197
+status: 3
+tags: []
+user_id: user

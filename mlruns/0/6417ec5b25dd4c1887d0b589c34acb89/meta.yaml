@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/6417ec5b25dd4c1887d0b589c34acb89/artifacts
+end_time: 1740300719860
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6417ec5b25dd4c1887d0b589c34acb89
+run_name: receptive-frog-320
+run_uuid: 6417ec5b25dd4c1887d0b589c34acb89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740300719821
+status: 3
+tags: []
+user_id: user

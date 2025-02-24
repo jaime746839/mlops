@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/31d8b3d978a7414589b656ad634ee84f/artifacts
+end_time: 1740247540772
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31d8b3d978a7414589b656ad634ee84f
+run_name: gifted-eel-531
+run_uuid: 31d8b3d978a7414589b656ad634ee84f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740247531147
+status: 3
+tags: []
+user_id: user

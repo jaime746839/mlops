@@ -1,0 +1,121 @@
+# Define variables
+PYTHON = python3
+VENV = venv
+MAIN_SCRIPT = main.py
+REQ_FILE = requirements.txt
+MODEL_FILE = model.pkl
+COMPOSE = docker-compose
+IMAGE_NAME_FASTAPI = willisrunner/mlops:fastapi-latest
+IMAGE_NAME_MLFLOW = willisrunner/mlops:mlflow-latest
+CONTAINER_FASTAPI = fastapi
+CONTAINER_MLFLOW = mlflow
+
+# 🛠️ Virtual Environment Setup
+install:
+	@echo "📦 Installing dependencies..."
+	$(PYTHON) -m venv $(VENV)
+	$(VENV)/bin/pip install --upgrade pip
+	$(VENV)/bin/pip install -r $(REQ_FILE)
+
+# 🔍 Code Linting
+lint:
+	@echo "🔍 Checking code quality..."
+	$(VENV)/bin/flake8 --max-line-length=100 --ignore=E203,W503 model_pipeline.py main.py
+
+# 📊 Model Pipeline Steps
+prepare:
+	@echo "📊 Preparing data..."
+	$(PYTHON) $(MAIN_SCRIPT) --prepare
+
+train:
+	@echo "🚀 Training model..."
+	$(PYTHON) $(MAIN_SCRIPT) --train
+
+validate:
+	@echo "📈 Validating model..."
+	$(PYTHON) $(MAIN_SCRIPT) --validate
+
+# 🧹 Cleanup
+clean:
+	@echo "🧹 Cleaning up files..."
+	rm -f $(MODEL_FILE)
+	rm -rf __pycache__
+
+# 🛠️ Help Menu
+help:
+	@echo "🛠️ Available commands:"
+	@echo "  make install       -> Install dependencies"
+	@echo "  make lint          -> Check code quality"
+	@echo "  make prepare       -> Prepare data"
+	@echo "  make train         -> Train model"
+	@echo "  make validate      -> Validate model"
+	@echo "  make clean         -> Clean unused files"
+	@echo "  make run           -> Run FastAPI locally"
+	@echo "  make retrain       -> Retrain model via API"
+	@echo "  make test          -> Test API prediction"
+	@echo "  make docker-build  -> Build Docker images"
+	@echo "  make docker-up     -> Start FastAPI & MLflow services"
+	@echo "  make docker-down   -> Stop services"
+	@echo "  make docker-logs   -> View logs"
+	@echo "  make docker-restart -> Restart services"
+	@echo "  make docker-clean  -> Clean Docker resources"
+	@echo "  make docker-push   -> Push images to Docker Hub"
+	@echo "  make api-train     -> Train model via API"
+	@echo "  make api-test      -> Test prediction via API"
+	@echo "  make docker-run    -> Run FastAPI in Docker"
+
+# 🚀 Run FastAPI Locally (Without Docker)
+run:
+	@echo "🚀 Running FastAPI locally..."
+	$(VENV)/bin/uvicorn app:app --reload
+
+# 🐳 Docker Workflow Commands
+docker-build:
+	@echo "🐳 Building Docker images..."
+	$(COMPOSE) build
+
+docker-up:
+	@echo "🚀 Starting FastAPI & MLflow services..."
+	$(COMPOSE) up -d
+
+docker-down:
+	@echo "🛑 Stopping containers..."
+	$(COMPOSE) down
+
+docker-logs:
+	@echo "📜 Showing logs..."
+	$(COMPOSE) logs -f
+
+docker-restart:
+	@echo "🔄 Restarting services..."
+	$(COMPOSE) down && $(COMPOSE) up -d
+
+docker-clean:
+	@echo "🧹 Cleaning Docker system..."
+	$(COMPOSE) down -v
+	docker system prune -f
+
+docker-push:
+	@echo "📤 Pushing Docker images to Docker Hub..."
+	docker tag $(IMAGE_NAME_FASTAPI) willisrunner/mlops:fastapi-latest
+	docker push willisrunner/mlops:fastapi-latest
+	docker tag $(IMAGE_NAME_MLFLOW) willisrunner/mlops:mlflow-latest
+	docker push willisrunner/mlops:mlflow-latest
+
+docker-status:
+	@echo "Checking the status of all services..."
+	$(COMPOSE) ps
+
+# Additional API Commands
+api-train:
+	@echo "🚀 Training model via API..."
+	curl -X POST "http://127.0.0.1:8000/retrain" -H "Content-Type: application/json" -d '{"n_estimators": 150, "max_depth": 10, "min_samples_split": 5, "min_samples_leaf": 2}'
+
+api-test:
+	@echo "🧪 Testing API prediction..."
+	curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{"features": [1.5, 2.3, 3.1]}'
+
+# 🚀 Run FastAPI inside Docker
+docker-run:
+	@echo "🚀 Running FastAPI inside Docker..."
+	$(COMPOSE) up -d fastapi

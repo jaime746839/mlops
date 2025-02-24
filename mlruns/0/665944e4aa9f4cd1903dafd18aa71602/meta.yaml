@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/665944e4aa9f4cd1903dafd18aa71602/artifacts
+end_time: 1740246876850
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 665944e4aa9f4cd1903dafd18aa71602
+run_name: victorious-rat-782
+run_uuid: 665944e4aa9f4cd1903dafd18aa71602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740246867859
+status: 4
+tags: []
+user_id: user

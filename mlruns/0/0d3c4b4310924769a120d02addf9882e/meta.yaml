@@ -1,0 +1,15 @@
+artifact_uri: file:///home/user/ml_project/mlruns/0/0d3c4b4310924769a120d02addf9882e/artifacts
+end_time: 1740247263104
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d3c4b4310924769a120d02addf9882e
+run_name: efficient-lamb-673
+run_uuid: 0d3c4b4310924769a120d02addf9882e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740247255832
+status: 3
+tags: []
+user_id: user
